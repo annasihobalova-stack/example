@@ -1,7 +1,7 @@
 <wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://learnwebservices.com/services/hello" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="HelloEndpointService" targetNamespace="http://learnwebservices.com/services/hello">
 <wsdl:types>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://learnwebservices.com/services/hello" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://learnwebservices.com/services/hello">
-<xs:complexType name="helloRequest">
+<xs:complexType name="hellooooRequest">
 <xs:sequence>
 <xs:element name="Name" type="xs:string"/>
 </xs:sequence>
@@ -11,7 +11,7 @@
 <xs:element name="Message" type="xs:string"/>
 </xs:sequence>
 </xs:complexType>
-<xs:element name="HelloRequest" nillable="true" type="helloRequest"/>
+<xs:element name="HelloRequest" nillable="true" type="hellooooRequest"/>
 <xs:element name="HelloResponse" nillable="true" type="helloResponse"/>
 </xs:schema>
 </wsdl:types>
